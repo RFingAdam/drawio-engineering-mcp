@@ -1,0 +1,28 @@
+{
+  "templates": {
+    "cispr25_re": {
+      "name": "CISPR 25 Radiated Emissions",
+      "equipment": ["eut", "eut_table", "antenna", "antenna_mast", "spectrum_analyzer", "lisn", "ground_plane"],
+      "distances": { "antenna_to_eut_m": 1.0, "eut_height_m": 0.05, "antenna_height_range_m": [1, 4] },
+      "notes": "Semi-anechoic chamber. Antenna 1m from EUT. 150 kHz - 2.5 GHz."
+    },
+    "cispr25_ce": {
+      "name": "CISPR 25 Conducted Emissions",
+      "equipment": ["eut", "lisn", "spectrum_analyzer", "ground_plane"],
+      "distances": { "lisn_to_eut_m": 0.2 },
+      "notes": "LISN on each power line. 150 kHz - 108 MHz."
+    },
+    "iso11452_2_ri": {
+      "name": "ISO 11452-2 Radiated Immunity",
+      "equipment": ["eut", "eut_table", "antenna", "signal_generator", "power_amplifier", "power_meter", "ground_plane"],
+      "distances": { "antenna_to_eut_m": 1.0 },
+      "notes": "Absorber-lined shielded enclosure. 200 MHz - 18 GHz."
+    },
+    "iso11452_4_ci": {
+      "name": "ISO 11452-4 Conducted Immunity (BCI)",
+      "equipment": ["eut", "bci_probe", "signal_generator", "power_amplifier", "power_meter", "ground_plane"],
+      "distances": { "probe_to_eut_m": 0.15 },
+      "notes": "BCI clamp on harness. 1 MHz - 400 MHz."
+    }
+  }
+}

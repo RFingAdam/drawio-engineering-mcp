@@ -1,0 +1,44 @@
+{
+  "materials": {
+    "fr4": { "name": "FR-4", "dk": 4.2, "df": 0.02 },
+    "rogers_4003c": { "name": "Rogers 4003C", "dk": 3.55, "df": 0.0027 },
+    "rogers_4350b": { "name": "Rogers 4350B", "dk": 3.66, "df": 0.0037 },
+    "megtron6": { "name": "Megtron 6", "dk": 3.71, "df": 0.002 },
+    "isola_370hr": { "name": "Isola 370HR", "dk": 3.92, "df": 0.025 }
+  },
+  "copper_weights": { "0.5oz": 0.0175, "1oz": 0.035, "2oz": 0.070 },
+  "templates": {
+    "4layer": {
+      "name": "Standard 4-Layer",
+      "layers": [
+        { "type": "soldermask", "thickness_mm": 0.025, "color": "#009900" },
+        { "type": "copper", "name": "L1 Signal", "weight": "1oz" },
+        { "type": "prepreg", "material": "fr4", "thickness_mm": 0.2 },
+        { "type": "copper", "name": "L2 GND", "weight": "1oz" },
+        { "type": "core", "material": "fr4", "thickness_mm": 0.8 },
+        { "type": "copper", "name": "L3 PWR", "weight": "1oz" },
+        { "type": "prepreg", "material": "fr4", "thickness_mm": 0.2 },
+        { "type": "copper", "name": "L4 Signal", "weight": "1oz" },
+        { "type": "soldermask", "thickness_mm": 0.025, "color": "#009900" }
+      ]
+    },
+    "6layer": {
+      "name": "Standard 6-Layer",
+      "layers": [
+        { "type": "soldermask", "thickness_mm": 0.025, "color": "#009900" },
+        { "type": "copper", "name": "L1 Signal", "weight": "1oz" },
+        { "type": "prepreg", "material": "fr4", "thickness_mm": 0.15 },
+        { "type": "copper", "name": "L2 GND", "weight": "1oz" },
+        { "type": "core", "material": "fr4", "thickness_mm": 0.3 },
+        { "type": "copper", "name": "L3 Signal", "weight": "0.5oz" },
+        { "type": "prepreg", "material": "fr4", "thickness_mm": 0.3 },
+        { "type": "copper", "name": "L4 Signal", "weight": "0.5oz" },
+        { "type": "core", "material": "fr4", "thickness_mm": 0.3 },
+        { "type": "copper", "name": "L5 PWR", "weight": "1oz" },
+        { "type": "prepreg", "material": "fr4", "thickness_mm": 0.15 },
+        { "type": "copper", "name": "L6 Signal", "weight": "1oz" },
+        { "type": "soldermask", "thickness_mm": 0.025, "color": "#009900" }
+      ]
+    }
+  }
+}
