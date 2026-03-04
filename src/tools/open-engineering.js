@@ -1,55 +1,29 @@
-import { readFileSync } from "fs";
-import { fileURLToPath } from "url";
-import { dirname, join } from "path";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-// Load stencil libraries at module init
-const STENCIL_DIR = join(__dirname, "..", "stencils");
-
-function loadStencilLibrary(filename) {
-  try {
-    return readFileSync(join(STENCIL_DIR, filename), "utf-8");
-  } catch (e) {
-    console.error(`Warning: Could not load stencil ${filename}: ${e.message}`);
-    return null;
-  }
-}
+const STENCIL_BASE_URL =
+  "https://raw.githubusercontent.com/RFingAdam/drawio-engineering-mcp/main/docs/stencils";
 
 const STENCIL_LIBRARIES = {
   "rf-blocks": { file: "rf-blocks.xml", label: "RF Blocks" },
 };
 
 /**
- * Injects mxlibrary stencils into diagram XML so they appear
- * in the draw.io sidebar when the diagram opens.
+ * Build the clibs URL parameter using raw GitHub URLs.
  *
- * draw.io supports embedding libraries via the `libs` URL parameter
- * or by including them in the XML itself. We use the URL parameter
- * approach with `clibs` for custom libraries.
+ * draw.io accepts `clibs=U<url>` where <url> points to an XML stencil
+ * library file. Multiple libraries are separated by semicolons.
  *
- * For the MVP, we inject the stencil content directly into the
- * diagram XML as an extra page/metadata that draw.io can parse.
- * Actually, the simplest reliable approach: we pass the stencil
- * data as a separate JSON structure alongside the diagram.
+ * Previously we used data: URIs with the full XML encoded inline, but
+ * that exceeded the ~8 KB browser URL length limit. Raw GitHub URLs
+ * are short and reliable for public repos.
  */
 function getStencilUrlParam(requestedLibs) {
-  // For MVP: load stencils and generate a data URI that draw.io can consume
-  // The clibs parameter accepts semicolon-separated library URLs
-  // We'll use the data: URI scheme to embed inline
   const libs = [];
 
   for (const libName of requestedLibs) {
     const libInfo = STENCIL_LIBRARIES[libName];
     if (!libInfo) continue;
 
-    const content = loadStencilLibrary(libInfo.file);
-    if (content) {
-      // draw.io clibs=U<url> format accepts data URIs
-      const encoded = encodeURIComponent(content);
-      libs.push(`Udata:application/xml,${encoded}`);
-    }
+    const url = `${STENCIL_BASE_URL}/${libInfo.file}`;
+    libs.push(`U${url}`);
   }
 
   return libs.length > 0 ? libs.join(";") : null;
