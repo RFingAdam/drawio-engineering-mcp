@@ -15,9 +15,11 @@ import { createRfBlockDiagramTool } from "./tools/create-rf-block-diagram.js";
 import { createEmcTestSetupTool } from "./tools/create-emc-test-setup.js";
 import { createPcbStackupTool } from "./tools/create-pcb-stackup.js";
 import { markupSchematicTool } from "./tools/markup-schematic.js";
+import { readDrawioTool } from "./tools/read-drawio.js";
+import { exportDrawioTool } from "./tools/export-drawio.js";
 
 // All registered tools
-const allTools = [openXmlTool, openCsvTool, openMermaidTool, openEngineeringTool, createRfBlockDiagramTool, createEmcTestSetupTool, createPcbStackupTool, markupSchematicTool];
+const allTools = [openXmlTool, openCsvTool, openMermaidTool, openEngineeringTool, createRfBlockDiagramTool, createEmcTestSetupTool, createPcbStackupTool, markupSchematicTool, readDrawioTool, exportDrawioTool];
 
 // Build a lookup map: tool name -> tool definition
 const toolMap = new Map(allTools.map((t) => [t.name, t]));
@@ -57,6 +59,22 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       return {
         content: [{ type: "text", text: `Error: Unknown tool "${name}"` }],
         isError: true,
+      };
+    }
+
+    // Reader tools: parse diagram files and return structured data
+    if (tool.isReader) {
+      const result = tool.read(args);
+      return {
+        content: [{ type: "text", text: JSON.stringify(result, null, 2) }],
+      };
+    }
+
+    // Exporter tools: convert diagrams to image files
+    if (tool.isExporter) {
+      const result = await tool.export(args);
+      return {
+        content: [{ type: "text", text: JSON.stringify(result, null, 2) }],
       };
     }
 
