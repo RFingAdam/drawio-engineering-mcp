@@ -12,9 +12,12 @@ import { openCsvTool } from "./tools/open-csv.js";
 import { openMermaidTool } from "./tools/open-mermaid.js";
 import { openEngineeringTool } from "./tools/open-engineering.js";
 import { createRfBlockDiagramTool } from "./tools/create-rf-block-diagram.js";
+import { createEmcTestSetupTool } from "./tools/create-emc-test-setup.js";
+import { createPcbStackupTool } from "./tools/create-pcb-stackup.js";
+import { markupSchematicTool } from "./tools/markup-schematic.js";
 
 // All registered tools
-const allTools = [openXmlTool, openCsvTool, openMermaidTool, openEngineeringTool, createRfBlockDiagramTool];
+const allTools = [openXmlTool, openCsvTool, openMermaidTool, openEngineeringTool, createRfBlockDiagramTool, createEmcTestSetupTool, createPcbStackupTool, markupSchematicTool];
 
 // Build a lookup map: tool name -> tool definition
 const toolMap = new Map(allTools.map((t) => [t.name, t]));
