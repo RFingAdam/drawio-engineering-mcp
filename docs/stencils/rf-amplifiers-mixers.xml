@@ -1,0 +1,114 @@
+<mxlibrary>[
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"shape=mxgraph.electrical.signal_sources.amplifier;flipH=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 60,
+    "title": "Generic Amplifier",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"LNA\" style=\"shape=mxgraph.electrical.signal_sources.amplifier;flipH=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 60,
+    "title": "LNA",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"PA\" style=\"shape=mxgraph.electrical.signal_sources.amplifier;flipH=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 60,
+    "title": "PA",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"VGA\" style=\"shape=mxgraph.electrical.signal_sources.amplifier;flipH=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"60\" as=\"geometry\"/></mxCell><mxCell id=\"3\" value=\"\" style=\"endArrow=none;strokeWidth=1.5;rotation=-45;\" edge=\"1\" parent=\"1\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"25\" y=\"50\" as=\"sourcePoint\"/><mxPoint x=\"55\" y=\"10\" as=\"targetPoint\"/></mxGeometry></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 60,
+    "title": "VGA",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"DRV\" style=\"shape=mxgraph.electrical.signal_sources.amplifier;flipH=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 60,
+    "title": "Driver Amp",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"BUF\" style=\"shape=mxgraph.electrical.signal_sources.amplifier;flipH=0;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 60,
+    "title": "Buffer Amp",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"shape=mxgraph.electrical.signal_sources.amplifier;flipH=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"60\" as=\"geometry\"/></mxCell><mxCell id=\"3\" value=\"+\" style=\"text;fontSize=10;fontStyle=1;align=center;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"5\" y=\"15\" width=\"15\" height=\"15\" as=\"geometry\"/></mxCell><mxCell id=\"4\" value=\"−\" style=\"text;fontSize=10;fontStyle=1;align=center;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"5\" y=\"32\" width=\"15\" height=\"15\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 60,
+    "title": "Differential Amp",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"LIM\" style=\"shape=mxgraph.electrical.signal_sources.amplifier;flipH=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 60,
+    "title": "Limiting Amp",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"LOG\" style=\"shape=mxgraph.electrical.signal_sources.amplifier;flipH=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 60,
+    "title": "Log Amp",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"DIST\" style=\"shape=mxgraph.electrical.signal_sources.amplifier;flipH=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 60,
+    "title": "Distributed Amp",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"X\" style=\"ellipse;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=16;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 60,
+    "title": "Mixer",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"X\" style=\"ellipse;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;fontSize=16;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 60,
+    "title": "Double-Balanced Mixer",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"IRM\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 60,
+    "title": "Image-Reject Mixer",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"X&#xa;x2\" style=\"ellipse;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=12;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 60,
+    "title": "Sub-Harmonic Mixer",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"I/Q\" style=\"ellipse;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=12;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"70\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 70,
+    "h": 60,
+    "title": "I/Q Mixer",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"X&#xa;xN\" style=\"ellipse;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=12;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 60,
+    "title": "Harmonic Mixer",
+    "aspect": "fixed"
+  }
+]</mxlibrary>

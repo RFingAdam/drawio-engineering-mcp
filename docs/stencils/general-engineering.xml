@@ -1,0 +1,268 @@
+<mxlibrary>[
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Process\" style=\"whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"120\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 120,
+    "h": 60,
+    "title": "Process Block",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Decision\" style=\"rhombus;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 80,
+    "title": "Decision Diamond",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"DB\" style=\"shape=cylinder3;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=11;fontStyle=1;size=10;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"70\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 70,
+    "title": "Data Store / Database",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Sub-Process\" style=\"rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=10;fontStyle=1;arcSize=30;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"120\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 120,
+    "h": 50,
+    "title": "Rounded Process Block",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Cloud\" style=\"ellipse;shape=cloud;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"70\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 70,
+    "title": "Cloud (Network/Internet)",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Start\" style=\"rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;fontStyle=1;arcSize=50;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"40\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 40,
+    "title": "Terminator (Start/End)",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Signal\" style=\"shape=flexArrow;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;fontSize=9;fontStyle=1;endWidth=15;endSize=4;startWidth=15;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"120\" height=\"25\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 120,
+    "h": 25,
+    "title": "Arrow / Signal Flow",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"BUS [N]\" style=\"shape=flexArrow;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=9;fontStyle=1;endWidth=25;endSize=5;startWidth=25;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"120\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 120,
+    "h": 30,
+    "title": "Bus / Multi-Signal Line",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"42U RACK\" style=\"whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#333333;strokeWidth=2;fontSize=9;fontStyle=1;verticalAlign=top;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"200\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 200,
+    "title": "19-inch Rack (Front View)",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"1U Device\" style=\"whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"90\" height=\"15\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 90,
+    "h": 15,
+    "title": "1U Rack Device",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"2U Device\" style=\"whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"90\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 90,
+    "h": 30,
+    "title": "2U Rack Device",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Blank\" style=\"whiteSpace=wrap;fillColor=#E0E0E0;strokeColor=#9E9E9E;strokeWidth=1;fontSize=8;fontStyle=2;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"90\" height=\"15\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 90,
+    "h": 15,
+    "title": "Rack Shelf / Blank Panel",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"DIN Rail\" style=\"whiteSpace=wrap;fillColor=#BCAAA4;strokeColor=#795548;strokeWidth=2;fontSize=8;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"200\" height=\"10\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 200,
+    "h": 10,
+    "title": "DIN Rail",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"DIN\" style=\"whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#333333;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"30\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 30,
+    "h": 50,
+    "title": "DIN Rail Module",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"IP67\" style=\"rounded=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;fontSize=10;fontStyle=1;dashed=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"80\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 80,
+    "title": "IP-Rated Enclosure",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"PCB\" style=\"whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;fontSize=8;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"10\" y=\"20\" width=\"80\" height=\"10\" as=\"geometry\"/></mxCell><mxCell id=\"3\" value=\"Enclosure\" style=\"whiteSpace=wrap;fillColor=none;strokeColor=#333333;strokeWidth=2;fontSize=9;fontStyle=1;verticalAlign=bottom;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 60,
+    "title": "PCB Enclosure (Cross-Section)",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"COAX&#xa;RG-XXX\" style=\"rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=8;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"120\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 120,
+    "h": 20,
+    "title": "Coaxial Cable (Labeled)",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"TP\" style=\"rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"15\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 15,
+    "title": "Twisted Pair",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"RIBBON\" style=\"whiteSpace=wrap;fillColor=#E0E0E0;strokeColor=#9E9E9E;strokeWidth=1;fontSize=8;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"12\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 12,
+    "title": "Ribbon Cable / Flat Flex",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"FIBER\" style=\"rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"15\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 15,
+    "title": "Fiber Optic Cable",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"HARNESS\" style=\"rounded=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;fontSize=9;fontStyle=1;dashed=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"120\" height=\"25\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 120,
+    "h": 25,
+    "title": "Cable Bundle / Harness",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"W001\" style=\"text;html=1;fontSize=8;fontStyle=1;fontColor=#333333;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"50\" height=\"18\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 50,
+    "h": 18,
+    "title": "Wire / Cable Label",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"shape=mxgraph.electrical.signal_sources.ground;fillColor=#333333;strokeColor=#333333;strokeWidth=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"20\" height=\"25\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 20,
+    "h": 25,
+    "title": "Cable Shield Termination",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"ellipse;whiteSpace=wrap;fillColor=#333333;strokeColor=#333333;strokeWidth=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"10\" height=\"10\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 10,
+    "h": 10,
+    "title": "Splice / Junction",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"HEATSINK\" style=\"whiteSpace=wrap;fillColor=#BCAAA4;strokeColor=#795548;strokeWidth=2;fontSize=8;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 30,
+    "title": "Heatsink (Profile View)",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"HS\" style=\"whiteSpace=wrap;fillColor=#BCAAA4;strokeColor=#795548;strokeWidth=1;fontSize=8;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 60,
+    "title": "Heatsink (Top View)",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"TIM\" style=\"whiteSpace=wrap;fillColor=#FFCCBC;strokeColor=#E64A19;strokeWidth=1;fontSize=7;fontStyle=2;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"5\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 5,
+    "title": "Thermal Pad / TIM",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"VIAS\" style=\"whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;fontSize=7;fontStyle=1;dashed=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 40,
+    "h": 40,
+    "title": "Thermal Via Array",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"FAN\" style=\"ellipse;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"50\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 50,
+    "h": 50,
+    "title": "Fan / Forced Air",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"shape=flexArrow;fillColor=#FF6600;strokeColor=#CC5200;strokeWidth=1;fontSize=8;endWidth=12;endSize=4;startWidth=12;opacity=60;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 20,
+    "title": "Airflow Arrow",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Heat Pipe\" style=\"rounded=1;whiteSpace=wrap;fillColor=#FFCCBC;strokeColor=#E64A19;strokeWidth=2;fontSize=8;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"15\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 15,
+    "title": "Heat Pipe",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"HOT&#xa;85°C\" style=\"whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=9;fontStyle=1;dashed=1;opacity=50;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 60,
+    "title": "Thermal Zone / Hot Spot",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"R\" style=\"shape=mxgraph.electrical.resistors.resistor_1;fillColor=#f5f5f5;strokeColor=#333333;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 20,
+    "title": "Resistor (US Zigzag)",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"C\" style=\"shape=mxgraph.electrical.capacitors.capacitor;fillColor=#f5f5f5;strokeColor=#333333;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"40\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 40,
+    "h": 30,
+    "title": "Capacitor (Fixed)",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"L\" style=\"shape=mxgraph.electrical.inductors.inductor;fillColor=#f5f5f5;strokeColor=#333333;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 20,
+    "title": "Inductor",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"XFMR\" style=\"shape=mxgraph.electrical.inductors.transformer_2;fillColor=#f5f5f5;strokeColor=#333333;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"50\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 50,
+    "h": 50,
+    "title": "Transformer",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"FB\" style=\"rounded=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#333333;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"50\" height=\"25\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 50,
+    "h": 25,
+    "title": "Ferrite Bead",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"VAR\" style=\"shape=mxgraph.electrical.diodes.varactor;fillColor=#f5f5f5;strokeColor=#333333;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"40\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 40,
+    "h": 30,
+    "title": "Varactor Diode",
+    "aspect": "fixed"
+  }
+]</mxlibrary>

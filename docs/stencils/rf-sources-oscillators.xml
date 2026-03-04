@@ -1,0 +1,72 @@
+<mxlibrary>[
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"~\" style=\"ellipse;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=20;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 60,
+    "title": "Oscillator",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"VCO\" style=\"ellipse;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 60,
+    "title": "VCO",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"XO\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"40\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 40,
+    "title": "Crystal Oscillator",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"TCXO\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"40\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 40,
+    "title": "TCXO",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"OCXO\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"40\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 40,
+    "title": "OCXO",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"VCXO\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"40\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 40,
+    "title": "VCXO",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"PLL\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 50,
+    "title": "PLL Synthesizer",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"FRAC-N\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 50,
+    "title": "Fractional-N Synth",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"DDS\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"70\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 70,
+    "h": 50,
+    "title": "DDS",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"xN\" style=\"shape=mxgraph.electrical.signal_sources.amplifier;flipH=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=12;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"70\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 70,
+    "h": 50,
+    "title": "Frequency Multiplier",
+    "aspect": "fixed"
+  }
+]</mxlibrary>
