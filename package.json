@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1",
+    "fast-xml-parser": "^5.4.2",
     "pako": "^2.1.0"
   },
   "license": "Apache-2.0"
