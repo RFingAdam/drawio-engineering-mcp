@@ -1,0 +1,19 @@
+{
+  "name": "@swamp/drawio-engineering-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Draw.io MCP server with RF, electrical, and EMC engineering stencils and tools",
+  "type": "module",
+  "bin": {
+    "drawio-engineering-mcp": "src/index.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "pako": "^2.1.0"
+  },
+  "license": "Apache-2.0"
+}
