@@ -1,8 +1,7 @@
 {
-  "name": "@swamp/drawio-engineering-mcp",
+  "name": "drawio-engineering-mcp",
   "version": "1.0.0",
-  "private": true,
-  "description": "Draw.io MCP server with RF, electrical, and EMC engineering stencils and tools",
+  "description": "Draw.io MCP server for RF, electrical, PCB, and EMC engineering diagrams — 10 tools, 269 stencil symbols",
   "type": "module",
   "bin": {
     "drawio-engineering-mcp": "src/index.js"
@@ -10,6 +9,32 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "drawio",
+    "draw.io",
+    "engineering",
+    "rf",
+    "emc",
+    "pcb",
+    "electrical",
+    "diagrams",
+    "stencils",
+    "signal-chain",
+    "claude",
+    "llm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RFingAdam/drawio-engineering-mcp.git"
+  },
+  "homepage": "https://github.com/RFingAdam/drawio-engineering-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/RFingAdam/drawio-engineering-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1",
