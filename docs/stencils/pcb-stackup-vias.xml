@@ -1,0 +1,212 @@
+<mxlibrary>[
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Signal\" style=\"whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"200\" height=\"10\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 200,
+    "h": 10,
+    "title": "Copper Layer (Signal)",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"GND\" style=\"whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"200\" height=\"10\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 200,
+    "h": 10,
+    "title": "Copper Layer (GND)",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"PWR\" style=\"whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"200\" height=\"10\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 200,
+    "h": 10,
+    "title": "Copper Layer (PWR)",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Prepreg\" style=\"whiteSpace=wrap;fillColor=#FFF9C4;strokeColor=#F9A825;strokeWidth=1;fontSize=8;fontStyle=2;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"200\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 200,
+    "h": 20,
+    "title": "Prepreg Layer",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Core\" style=\"whiteSpace=wrap;fillColor=#E0E0E0;strokeColor=#9E9E9E;strokeWidth=1;fontSize=8;fontStyle=2;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"200\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 200,
+    "h": 30,
+    "title": "Core Layer",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"whiteSpace=wrap;fillColor=#009900;strokeColor=#006600;strokeWidth=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"200\" height=\"5\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 200,
+    "h": 5,
+    "title": "Soldermask",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"200\" height=\"3\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 200,
+    "h": 3,
+    "title": "Silkscreen",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"ENIG\" style=\"whiteSpace=wrap;fillColor=#FFD700;strokeColor=#B8860B;strokeWidth=1;fontSize=7;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"200\" height=\"3\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 200,
+    "h": 3,
+    "title": "Surface Finish",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Stiffener\" style=\"whiteSpace=wrap;fillColor=#BCAAA4;strokeColor=#795548;strokeWidth=1;fontSize=8;fontStyle=2;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"200\" height=\"25\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 200,
+    "h": 25,
+    "title": "Stiffener",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Adhesive\" style=\"whiteSpace=wrap;fillColor=#FFCCBC;strokeColor=#E64A19;strokeWidth=1;fontSize=7;fontStyle=2;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"200\" height=\"5\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 200,
+    "h": 5,
+    "title": "Adhesive / Bond Layer",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"ellipse;whiteSpace=wrap;fillColor=#666666;strokeColor=#333333;strokeWidth=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"8\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 8,
+    "h": 60,
+    "title": "Through-Hole Via",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"fillColor=#666666;strokeColor=#333333;strokeWidth=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"6\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 6,
+    "h": 30,
+    "title": "Blind Via (Top)",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"fillColor=#666666;strokeColor=#333333;strokeWidth=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"6\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 6,
+    "h": 30,
+    "title": "Blind Via (Bottom)",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"fillColor=#999999;strokeColor=#666666;strokeWidth=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"5\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 5,
+    "h": 20,
+    "title": "Buried Via",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"fillColor=#999999;strokeColor=#666666;strokeWidth=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"4\" height=\"10\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 4,
+    "h": 10,
+    "title": "Microvia (Laser)",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"STACKED\" style=\"fillColor=#999999;strokeColor=#666666;strokeWidth=1;fontSize=6;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"8\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 8,
+    "h": 30,
+    "title": "Stacked Microvias",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"STAG\" style=\"fillColor=#999999;strokeColor=#666666;strokeWidth=1;fontSize=6;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"12\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 12,
+    "h": 30,
+    "title": "Staggered Microvias",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"fillColor=#666666;strokeColor=#333333;strokeWidth=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"8\" height=\"60\" as=\"geometry\"/></mxCell><mxCell id=\"3\" value=\"\" style=\"fillColor=none;strokeColor=#FF0000;strokeWidth=1;dashed=1;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"1\" y=\"40\" width=\"6\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 8,
+    "h": 60,
+    "title": "Back-Drilled Via",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"uStrip\" style=\"text;html=1;fontSize=8;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 20,
+    "title": "Surface Microstrip",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Embedded\" style=\"text;html=1;fontSize=8;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"70\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 70,
+    "h": 20,
+    "title": "Embedded Microstrip",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Stripline\" style=\"text;html=1;fontSize=8;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 20,
+    "title": "Centered Stripline",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Offset\" style=\"text;html=1;fontSize=8;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 20,
+    "title": "Offset Stripline",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Diff uStrip\" style=\"text;html=1;fontSize=7;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"70\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 70,
+    "h": 20,
+    "title": "Diff Microstrip",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Diff Strip\" style=\"text;html=1;fontSize=7;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"70\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 70,
+    "h": 20,
+    "title": "Diff Stripline",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Broadside\" style=\"text;html=1;fontSize=7;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"70\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 70,
+    "h": 20,
+    "title": "Broadside Diff Stripline",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"CPW+GND\" style=\"text;html=1;fontSize=7;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"70\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 70,
+    "h": 20,
+    "title": "CPW with Ground",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Z0 = XX Ω\" style=\"text;html=1;fontSize=9;fontStyle=1;fontColor=#CC0000;fillColor=none;strokeColor=none;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 20,
+    "title": "Z0 Impedance Callout",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Zdiff = XXX Ω\" style=\"text;html=1;fontSize=9;fontStyle=1;fontColor=#CC0000;fillColor=none;strokeColor=none;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 20,
+    "title": "Zdiff Callout",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"±X mil\" style=\"text;html=1;fontSize=8;fontStyle=2;fontColor=#0066CC;fillColor=none;strokeColor=none;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 20,
+    "title": "Length Match Annotation",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"fillColor=#FF6600;strokeColor=#CC5200;strokeWidth=1;opacity=50;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"8\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 8,
+    "title": "Controlled Impedance Trace",
+    "aspect": "fixed"
+  }
+]</mxlibrary>

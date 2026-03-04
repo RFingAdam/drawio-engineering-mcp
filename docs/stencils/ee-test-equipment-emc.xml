@@ -1,0 +1,128 @@
+<mxlibrary>[
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Spectrum&#xa;Analyzer\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"90\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 90,
+    "h": 50,
+    "title": "Spectrum Analyzer",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Signal&#xa;Generator\" style=\"rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"90\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 90,
+    "h": 50,
+    "title": "Signal Generator",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"VNA\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"90\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 90,
+    "h": 50,
+    "title": "Vector Network Analyzer",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"SCOPE\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"90\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 90,
+    "h": 50,
+    "title": "Oscilloscope",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Power&#xa;Meter\" style=\"rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"90\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 90,
+    "h": 50,
+    "title": "Power Meter",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"EMI&#xa;Receiver\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"90\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 90,
+    "h": 50,
+    "title": "EMI Receiver",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"AWG\" style=\"rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"90\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 90,
+    "h": 50,
+    "title": "Arb Waveform Generator",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Logic&#xa;Analyzer\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"90\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 90,
+    "h": 50,
+    "title": "Logic Analyzer",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Bench&#xa;PSU\" style=\"rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"90\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 90,
+    "h": 50,
+    "title": "Bench Power Supply",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"DMM\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"70\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 70,
+    "h": 50,
+    "title": "Digital Multimeter",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"LISN\" style=\"rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"90\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 90,
+    "h": 50,
+    "title": "LISN",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"CDN\" style=\"rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"90\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 90,
+    "h": 50,
+    "title": "CDN",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"ANECHOIC&#xa;CHAMBER\" style=\"rounded=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;fontSize=8;fontStyle=1;dashed=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"120\" height=\"80\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 120,
+    "h": 80,
+    "title": "Anechoic Chamber",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"ellipse;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"50\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 50,
+    "h": 50,
+    "title": "Turntable",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"fillColor=#999999;strokeColor=#666666;strokeWidth=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"6\" height=\"120\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 6,
+    "h": 120,
+    "title": "Antenna Mast",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"EUT Table&#xa;0.8m\" style=\"fillColor=none;strokeColor=#666666;strokeWidth=2;fontSize=9;fontColor=#666666;verticalAlign=bottom;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"80\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 80,
+    "title": "EUT Table",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"FERRITE\" style=\"rounded=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;fontSize=8;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"50\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 50,
+    "h": 30,
+    "title": "Ferrite Clamp",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"shape=triangle;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"30\" height=\"40\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 30,
+    "h": 40,
+    "title": "RF Absorber Pyramid",
+    "aspect": "fixed"
+  }
+]</mxlibrary>

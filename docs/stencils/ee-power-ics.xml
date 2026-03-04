@@ -1,0 +1,142 @@
+<mxlibrary>[
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"LDO\" style=\"rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 50,
+    "title": "LDO Regulator",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"BUCK\" style=\"rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 50,
+    "title": "Buck Converter",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"BOOST\" style=\"rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 50,
+    "title": "Boost Converter",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"BUCK&#xa;BOOST\" style=\"rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 50,
+    "title": "Buck-Boost Converter",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"SEPIC\" style=\"rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 50,
+    "title": "SEPIC Converter",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"CHARGE&#xa;PUMP\" style=\"rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 50,
+    "title": "Charge Pump",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"FLYBACK\" style=\"rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 50,
+    "title": "Isolated DC-DC (Flyback)",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"AC-DC&#xa;SMPS\" style=\"rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 50,
+    "title": "AC-DC / SMPS",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"\" style=\"shape=mxgraph.electrical.signal_sources.dc_source;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"40\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 40,
+    "h": 60,
+    "title": "Battery Cell",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"BATT&#xa;PACK\" style=\"rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 50,
+    "title": "Battery Pack",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"PV\" style=\"rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 50,
+    "title": "Solar Panel / PV Cell",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"SC\" style=\"shape=mxgraph.electrical.capacitors.capacitor;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"40\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 40,
+    "h": 30,
+    "title": "Supercapacitor",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"IC\" style=\"whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#333333;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"80\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 80,
+    "title": "Generic IC Block",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"QFN\" style=\"whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#333333;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 80,
+    "title": "QFN Package",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"BGA\" style=\"whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#333333;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 80,
+    "title": "BGA Package",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"SoC\" style=\"whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"120\" height=\"80\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 120,
+    "h": 80,
+    "title": "SoC Block Diagram",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"FPGA\" style=\"whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"80\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 80,
+    "title": "FPGA",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"MCU\" style=\"whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"80\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 80,
+    "title": "Microcontroller",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"RF&#xa;MODULE\" style=\"rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 60,
+    "title": "RF Module",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"SiP\" style=\"whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#333333;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 60,
+    "title": "System-in-Package (SiP)",
+    "aspect": "fixed"
+  }
+]</mxlibrary>

@@ -3,6 +3,18 @@ const STENCIL_BASE_URL =
 
 const STENCIL_LIBRARIES = {
   "rf-blocks": { file: "rf-blocks.xml", label: "RF Blocks" },
+  "rf-amplifiers-mixers": { file: "rf-amplifiers-mixers.xml", label: "RF Amplifiers & Mixers" },
+  "rf-filters-attenuators": { file: "rf-filters-attenuators.xml", label: "RF Filters & Attenuators" },
+  "rf-passive-components": { file: "rf-passive-components.xml", label: "RF Passive Components" },
+  "rf-sources-oscillators": { file: "rf-sources-oscillators.xml", label: "RF Sources & Oscillators" },
+  "rf-switches-detectors": { file: "rf-switches-detectors.xml", label: "RF Switches & Detectors" },
+  "rf-antennas-txlines": { file: "rf-antennas-txlines.xml", label: "RF Antennas & TX Lines" },
+  "ee-power-ics": { file: "ee-power-ics.xml", label: "EE Power & ICs" },
+  "ee-connectors": { file: "ee-connectors.xml", label: "EE Connectors" },
+  "ee-test-equipment-emc": { file: "ee-test-equipment-emc.xml", label: "Test Equipment & EMC" },
+  "pcb-stackup-vias": { file: "pcb-stackup-vias.xml", label: "PCB Stackup & Vias" },
+  "wireless-telecom": { file: "wireless-telecom.xml", label: "Wireless & Telecom" },
+  "general-engineering": { file: "general-engineering.xml", label: "General Engineering" },
 };
 
 /**
@@ -33,11 +45,12 @@ export const openEngineeringTool = {
   name: "open_drawio_engineering",
   description:
     "Opens the draw.io editor with engineering diagram XML and automatically loads " +
-    "RF/electrical engineering stencil libraries in the sidebar. The stencil library " +
-    "includes common RF components (LNA, PA, mixer, filters, attenuator, switch, " +
-    "coupler, antenna, oscillator, etc.) ready to drag-and-drop. " +
-    "Use this instead of open_drawio_xml when creating RF signal chains, " +
-    "EMC test setups, or electrical engineering block diagrams. " +
+    "240+ engineering stencil libraries in the sidebar. Libraries cover RF components " +
+    "(amplifiers, mixers, filters, switches, antennas, oscillators), electrical " +
+    "(power ICs, connectors, test equipment), PCB (stackup layers, vias, impedance), " +
+    "wireless/telecom (protocol badges, spectrum, modulation), and general engineering " +
+    "(system blocks, rack diagrams, cables, thermal management, passive components). " +
+    "Use this instead of open_drawio_xml when creating engineering block diagrams. " +
     "IMPORTANT: Do NOT use double hyphens (--) inside XML comments.",
   inputSchema: {
     type: "object",
@@ -52,12 +65,28 @@ export const openEngineeringTool = {
         type: "array",
         items: {
           type: "string",
-          enum: ["rf-blocks"],
+          enum: [
+            "rf-blocks",
+            "rf-amplifiers-mixers",
+            "rf-filters-attenuators",
+            "rf-passive-components",
+            "rf-sources-oscillators",
+            "rf-switches-detectors",
+            "rf-antennas-txlines",
+            "ee-power-ics",
+            "ee-connectors",
+            "ee-test-equipment-emc",
+            "pcb-stackup-vias",
+            "wireless-telecom",
+            "general-engineering",
+          ],
         },
         description:
-          'Which stencil libraries to load. Default: ["rf-blocks"]. ' +
-          "Available: rf-blocks (RF amplifiers, mixers, filters, switches, antennas, etc.)",
-        default: ["rf-blocks"],
+          "Which stencil libraries to load. Defaults to all libraries. " +
+          "Available: rf-blocks, rf-amplifiers-mixers, rf-filters-attenuators, " +
+          "rf-passive-components, rf-sources-oscillators, rf-switches-detectors, " +
+          "rf-antennas-txlines, ee-power-ics, ee-connectors, ee-test-equipment-emc, " +
+          "pcb-stackup-vias, wireless-telecom, general-engineering",
       },
       lightbox: {
         type: "boolean",
@@ -73,7 +102,7 @@ export const openEngineeringTool = {
   },
   type: "xml",
   getExtraParams(args) {
-    const requestedLibs = args?.stencils || ["rf-blocks"];
+    const requestedLibs = args?.stencils || Object.keys(STENCIL_LIBRARIES);
     const clibs = getStencilUrlParam(requestedLibs);
     if (clibs) {
       return { clibs };

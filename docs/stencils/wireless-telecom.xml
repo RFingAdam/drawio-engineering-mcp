@@ -1,0 +1,191 @@
+<mxlibrary>[
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"WiFi 6E\" style=\"rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=10;fontStyle=1;arcSize=40;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 30,
+    "title": "WiFi 6/6E/7",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"BLE 5.3\" style=\"rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#0066CC;strokeWidth=2;fontSize=10;fontStyle=1;arcSize=40;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 30,
+    "title": "Bluetooth / BLE",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"LTE-M\" style=\"rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;fontStyle=1;arcSize=40;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 30,
+    "title": "LTE Cat-M1",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"LTE\" style=\"rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=11;fontStyle=1;arcSize=40;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 30,
+    "title": "LTE Cat-1/4/6",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"5G NR\" style=\"rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=10;fontStyle=1;arcSize=40;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 30,
+    "title": "5G NR",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"NB-IoT\" style=\"rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;fontStyle=1;arcSize=40;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 30,
+    "title": "NB-IoT",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"GNSS\" style=\"rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=10;fontStyle=1;arcSize=40;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"70\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 70,
+    "h": 30,
+    "title": "GNSS",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"LoRa\" style=\"rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=10;fontStyle=1;arcSize=40;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"70\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 70,
+    "h": 30,
+    "title": "LoRa / LoRaWAN",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Zigbee\" style=\"rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;fontStyle=1;arcSize=40;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"70\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 70,
+    "h": 30,
+    "title": "Zigbee / 802.15.4",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Thread\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=10;fontStyle=1;arcSize=40;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"70\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 70,
+    "h": 30,
+    "title": "Thread / OpenThread",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"UWB\" style=\"rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=10;fontStyle=1;arcSize=40;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 30,
+    "title": "UWB",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Z-Wave\" style=\"rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;fontStyle=1;arcSize=40;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"70\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 70,
+    "h": 30,
+    "title": "Z-Wave",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Band\" style=\"whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;fontSize=9;fontStyle=0;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 30,
+    "title": "Frequency Spectrum Block",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"CH1\" style=\"whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;fontSize=8;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"30\" height=\"30\" as=\"geometry\"/></mxCell><mxCell id=\"3\" value=\"CH2\" style=\"whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;fontSize=8;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"30\" width=\"30\" height=\"30\" as=\"geometry\"/></mxCell><mxCell id=\"4\" value=\"CH3\" style=\"whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;fontSize=8;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"60\" width=\"30\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 90,
+    "h": 30,
+    "title": "Channel Allocation",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Guard\" style=\"whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#CCCCCC;strokeWidth=1;fontSize=7;fontStyle=2;dashed=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"20\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 20,
+    "h": 30,
+    "title": "Guard Band",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"MASK\" style=\"shape=trapezoid;whiteSpace=wrap;fillColor=none;strokeColor=#FF0000;strokeWidth=2;fontSize=9;fontStyle=1;fontColor=#FF0000;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"40\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 40,
+    "title": "Occupied BW Mask",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"SPUR\" style=\"text;html=1;fontSize=8;fontStyle=1;fontColor=#FF0000;fillColor=none;strokeColor=none;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"40\" height=\"15\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 40,
+    "h": 15,
+    "title": "Spurious Emission",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"ADJ CH\" style=\"whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1;fontSize=8;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"30\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 30,
+    "title": "Adjacent Channel",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"Band XX\" style=\"text;html=1;fontSize=9;fontStyle=1;fontColor=#333333;fillColor=none;strokeColor=none;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"100\" height=\"15\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 100,
+    "h": 15,
+    "title": "Frequency Band Annotation",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"ISM\" style=\"whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;fontSize=9;fontStyle=1;dashed=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"25\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 25,
+    "title": "ISM Band Marker",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"QAM\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 60,
+    "title": "QAM Constellation",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"QPSK\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"60\" height=\"60\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 60,
+    "h": 60,
+    "title": "QPSK Constellation",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"OFDM\" style=\"rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"40\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 40,
+    "title": "OFDM Subcarriers",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"CP | DATA\" style=\"whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;fontSize=9;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"120\" height=\"25\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 120,
+    "h": 25,
+    "title": "OFDM Symbol",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"EYE\" style=\"ellipse;whiteSpace=wrap;fillColor=none;strokeColor=#333333;strokeWidth=2;fontSize=10;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 50,
+    "title": "Eye Diagram",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"I/Q\" style=\"rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"50\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 50,
+    "title": "I/Q Signal Path",
+    "aspect": "fixed"
+  },
+  {
+    "xml": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"PSD\" style=\"rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=11;fontStyle=1;\" vertex=\"1\" parent=\"1\"><mxGeometry width=\"80\" height=\"40\" as=\"geometry\"/></mxCell></root></mxGraphModel>",
+    "w": 80,
+    "h": 40,
+    "title": "Modulated Spectrum",
+    "aspect": "fixed"
+  }
+]</mxlibrary>
