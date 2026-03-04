@@ -1,11 +1,23 @@
-# drawio-engineering-mcp
+<p align="center">
+  <img src="docs/logo.svg" alt="drawio-engineering-mcp" width="200"/>
+</p>
 
-[![MCP](https://img.shields.io/badge/MCP-compatible-blue?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiPjxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgcng9IjIiLz48bGluZSB4MT0iOSIgeTE9IjMiIHgyPSI5IiB5Mj0iMjEiLz48L3N2Zz4=)](https://modelcontextprotocol.io)
-[![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE)
-[![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org)
-[![draw.io](https://img.shields.io/badge/draw.io-editor-orange?logo=diagramsdotnet)](https://app.diagrams.net)
+<h1 align="center">drawio-engineering-mcp</h1>
 
-A [Model Context Protocol](https://modelcontextprotocol.io) server that gives Claude (and other LLMs) the ability to create, view, and analyze engineering diagrams in [draw.io](https://app.diagrams.net). Built on top of the [official draw.io MCP](https://github.com/jgraph/drawio-mcp), extended with **10 tools** and **269 drag-and-drop engineering symbols** covering RF, electrical, PCB, EMC, wireless, and general engineering.
+<p align="center">
+  <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-compatible-blue?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiPjxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgcng9IjIiLz48bGluZSB4MT0iOSIgeTE9IjMiIHgyPSI5IiB5Mj0iMjEiLz48L3N2Zz4=" alt="MCP"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-green" alt="License"/></a>
+  <a href="https://nodejs.org"><img src="https://img.shields.io/badge/node-%3E%3D18-brightgreen" alt="Node"/></a>
+  <a href="https://app.diagrams.net"><img src="https://img.shields.io/badge/draw.io-editor-orange?logo=diagramsdotnet" alt="draw.io"/></a>
+</p>
+
+<p align="center">
+  A <a href="https://modelcontextprotocol.io">Model Context Protocol</a> server that gives Claude (and other LLMs) the ability to create, view, and analyze engineering diagrams in <a href="https://app.diagrams.net">draw.io</a>.<br/>
+  Built on the <a href="https://github.com/jgraph/drawio-mcp">official draw.io MCP</a>, extended with <strong>10 tools</strong> and <strong>269 drag-and-drop engineering symbols</strong><br/>
+  covering RF, electrical, PCB, EMC, wireless, and general engineering.
+</p>
+
+---
 
 ## Quick Start
 
