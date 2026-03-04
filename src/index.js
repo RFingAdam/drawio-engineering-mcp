@@ -11,9 +11,10 @@ import { openXmlTool } from "./tools/open-xml.js";
 import { openCsvTool } from "./tools/open-csv.js";
 import { openMermaidTool } from "./tools/open-mermaid.js";
 import { openEngineeringTool } from "./tools/open-engineering.js";
+import { createRfBlockDiagramTool } from "./tools/create-rf-block-diagram.js";
 
 // All registered tools
-const allTools = [openXmlTool, openCsvTool, openMermaidTool, openEngineeringTool];
+const allTools = [openXmlTool, openCsvTool, openMermaidTool, openEngineeringTool, createRfBlockDiagramTool];
 
 // Build a lookup map: tool name -> tool definition
 const toolMap = new Map(allTools.map((t) => [t.name, t]));
@@ -56,6 +57,39 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       };
     }
 
+    // Generator tools: produce XML from structured input
+    if (tool.isGenerator) {
+      const xmlContent = tool.generate(args);
+
+      // If auto_open is explicitly false, return XML without opening browser
+      if (args?.auto_open === false) {
+        return {
+          content: [{ type: "text", text: `Generated diagram XML:\n\n${xmlContent}` }],
+        };
+      }
+
+      const lightbox = args?.lightbox === true;
+      const darkArg = args?.dark;
+      const dark = darkArg === "true" ? true : darkArg === "false" ? false : "auto";
+      const extraParams = tool.getExtraParams ? tool.getExtraParams(args) : {};
+
+      const url = generateDrawioUrl(xmlContent, tool.type, {
+        lightbox,
+        dark,
+        extraParams,
+      });
+
+      openBrowser(url);
+
+      let responseText = `Draw.io Editor URL:\n${url}\n\nThe diagram has been opened in your default browser.`;
+      responseText += `\n\nGenerated XML:\n${xmlContent}`;
+
+      return {
+        content: [{ type: "text", text: responseText }],
+      };
+    }
+
+    // Passthrough tools: require content parameter
     const inputContent = args?.content;
 
     if (!inputContent) {
