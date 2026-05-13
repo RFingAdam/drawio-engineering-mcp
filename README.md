@@ -4,7 +4,7 @@
 
 <br/>
 
-[![License](https://img.shields.io/badge/License-Apache--2.0-1E40AF.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-AGPL--3.0-1E40AF.svg)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D18-3776AB.svg)](https://nodejs.org)
 [![MCP](https://img.shields.io/badge/MCP-server-A78BFA.svg)](https://modelcontextprotocol.io)
 [![eng-mcp-suite](https://img.shields.io/badge/eng--mcp--suite-member-22D3EE.svg)](https://github.com/RFingAdam/eng-mcp-suite)
@@ -50,7 +50,8 @@ structured JSON input.
 - ✅ **Round-trip.** `read_drawio` parses `.drawio` XML into structured
   JSON (shapes, edges, styles) so an agent can analyze an existing
   diagram. `export_drawio` renders to SVG / PNG.
-- 🔒 **Apache-2.0.** Built on the official draw.io MCP foundation.
+- 🔒 **AGPL-3.0-or-later.** Built on the official draw.io MCP foundation
+  (Apache-2.0); this server's engineering extensions are AGPL-3.0-or-later.
 
 ---
 
@@ -250,7 +251,10 @@ Contributions are welcome.
 
 ## License
 
-[Apache 2.0](LICENSE).
+[AGPL-3.0-or-later](LICENSE). Relicensed from Apache-2.0 in v1.1.0 to
+align with the eng-mcp-suite toolkit-wide AGPL move. The upstream
+draw.io MCP foundation remains Apache-2.0; this server's engineering
+extensions and added tooling are AGPL-3.0-or-later.
 
 ## Acknowledgments
 
