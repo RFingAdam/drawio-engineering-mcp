@@ -8,9 +8,9 @@
 
 **Tech Stack:** Node.js ES modules, @modelcontextprotocol/sdk, pako (compression), fast-xml-parser (read_drawio), puppeteer-core (export_drawio, optional)
 
-**Repo:** `~/projects/github/drawio-engineering-mcp`
+**Repo:** `this repository`
 
-**Symbols spec:** `~/projects/github/lte-throughput-tester/docs/drawio-engineering-symbols-spec.md`
+**Symbols spec:** `docs/drawio-engineering-symbols-spec.md`
 
 ---
 
@@ -25,7 +25,7 @@ GitHub Pages requires a paid plan for private repos. The repo is Apache-2.0 lice
 **Step 1: Make repo public**
 
 ```bash
-cd ~/projects/github/drawio-engineering-mcp
+cd this repository
 gh repo edit --visibility public
 ```
 
@@ -161,7 +161,7 @@ function cellToXml(c) {
 **Step 2: Verify it runs**
 
 ```bash
-cd ~/projects/github/drawio-engineering-mcp
+cd this repository
 node -e "import { createDiagram, cell, edge } from './src/core/xml-builder.js'; const c1 = cell({value:'A',x:0,y:0}); const c2 = cell({value:'B',x:200,y:0}); const e1 = edge({source:c1.cellId,target:c2.cellId}); console.log(createDiagram({cells:[c1,c2,e1]}));"
 ```
 
@@ -542,7 +542,7 @@ export function generateRfBlockDiagram({ chain, title, show_cumulative = false, 
 **Step 4: Verify generator runs**
 
 ```bash
-cd ~/projects/github/drawio-engineering-mcp
+cd this repository
 node -e "
 import { generateRfBlockDiagram } from './src/generators/rf-signal-chain.js';
 const xml = generateRfBlockDiagram({
@@ -724,7 +724,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 **Step 3: Test end-to-end**
 
 ```bash
-cd ~/projects/github/drawio-engineering-mcp
+cd this repository
 timeout 3 node src/index.js 2>&1 || true
 # Expected: "drawio-engineering-mcp server running on stdio" then timeout
 ```
@@ -744,7 +744,7 @@ Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
 
 ## Task 5: Expand Stencil Library (30 -> 240 symbols)
 
-Build the full stencil library per `~/projects/github/lte-throughput-tester/docs/drawio-engineering-symbols-spec.md`. Split into 12 XML files in `docs/stencils/`.
+Build the full stencil library per `docs/drawio-engineering-symbols-spec.md`. Split into 12 XML files in `docs/stencils/`.
 
 **Files:**
 - Create: `docs/stencils/rf-amplifiers-mixers.xml` (16 symbols)
@@ -1083,7 +1083,7 @@ Parse `.drawio` files and return structured JSON.
 **Step 1: Install dependency**
 
 ```bash
-cd ~/projects/github/drawio-engineering-mcp
+cd this repository
 npm install fast-xml-parser
 ```
 
@@ -1222,7 +1222,7 @@ Headless export of draw.io diagrams to SVG/PNG.
 **Step 1: Install optional dependency**
 
 ```bash
-cd ~/projects/github/drawio-engineering-mcp
+cd this repository
 npm install puppeteer-core
 ```
 
@@ -1337,7 +1337,7 @@ if (tool.isExporter) {
 **Step 1: Verify all tools are registered**
 
 ```bash
-cd ~/projects/github/drawio-engineering-mcp
+cd this repository
 node -e "
 import { Server } from '@modelcontextprotocol/sdk/server/index.js';
 // Quick count of imports
@@ -1358,7 +1358,7 @@ timeout 3 node src/index.js 2>&1 || true
 ```bash
 claude mcp list 2>&1 | grep drawio
 # If not present:
-claude mcp add drawio-engineering -s user -- node ~/projects/github/drawio-engineering-mcp/src/index.js
+claude mcp add drawio-engineering -s user -- node this repository/src/index.js
 ```
 
 **Step 4: Push everything**
