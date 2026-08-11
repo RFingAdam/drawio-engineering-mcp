@@ -256,6 +256,15 @@ align with the eng-mcp-suite toolkit-wide AGPL move. The upstream
 draw.io MCP foundation remains Apache-2.0; this server's engineering
 extensions and added tooling are AGPL-3.0-or-later.
 
+## Commercial licensing
+
+This project is licensed under AGPL-3.0-or-later. A commercial license —
+for embedding in a closed-source product, hosting as a paid service
+without AGPL's share-back obligations, or proprietary redistribution —
+is available on a case-by-case basis. See [eng-mcp-suite's licensing
+policy](https://github.com/RFingAdam/eng-mcp-suite/blob/main/LICENSE_SUMMARY.md#commercial-licensing)
+or open an issue and tag `@RFingAdam`.
+
 ## Acknowledgments
 
 - **[JGraph Ltd / draw.io](https://www.diagrams.net)** — for the
