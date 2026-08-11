@@ -5,3 +5,13 @@ Thumbs.db
 *.log
 .env
 .env.*
+
+# CAD / design files
+*.kicad_pcb
+*.brd
+*.step
+*.stp
+*.zip
+
+# security
+.ip-denylist
