@@ -30,7 +30,7 @@ Open draw.io with raw mxGraph XML content.
 
 | Name   | Type   | Default | Description                          |
 | ------ | ------ | ------- | ------------------------------------ |
-| `xml`  | string | —       | mxGraphModel XML to render           |
+| `xml`  | string | n/a | mxGraphModel XML to render           |
 
 ---
 
@@ -42,7 +42,7 @@ Open draw.io with CSV node data.
 
 | Name    | Type   | Default | Description                                  |
 | ------- | ------ | ------- | -------------------------------------------- |
-| `csv`   | string | —       | CSV body with header row                     |
+| `csv`   | string | n/a | CSV body with header row                     |
 | `style` | string | `"default"` | Built-in style profile to apply         |
 
 ---
@@ -55,7 +55,7 @@ Open draw.io with Mermaid diagram syntax.
 
 | Name      | Type   | Default | Description                                  |
 | --------- | ------ | ------- | -------------------------------------------- |
-| `mermaid` | string | —       | Mermaid diagram source                       |
+| `mermaid` | string | n/a | Mermaid diagram source                       |
 
 ---
 
@@ -83,8 +83,8 @@ annotations (gain, NF, P1dB cascade).
 
 | Name              | Type        | Default | Description                                              |
 | ----------------- | ----------- | ------- | -------------------------------------------------------- |
-| `blocks`          | `Block[]`   | —       | Array of `{ type, name, gain_db, nf_db, p1db_dbm }` rows |
-| `frequency_ghz`   | number      | —       | Operating frequency for label                            |
+| `blocks`          | `Block[]`   | n/a | Array of `{ type, name, gain_db, nf_db, p1db_dbm }` rows |
+| `frequency_ghz`   | number      | n/a | Operating frequency for label                            |
 | `show_cascade`    | boolean     | `true`  | Annotate cumulative gain / NF                            |
 
 ---
@@ -97,7 +97,7 @@ Generate a CISPR / ISO EMC test setup diagram from a template.
 
 | Name        | Type   | Default | Description                                                 |
 | ----------- | ------ | ------- | ----------------------------------------------------------- |
-| `template`  | string | —       | `"cispr25_re"`, `"cispr25_ce"`, `"iso11452_2_ri"`, `"iso11452_4_ci"` |
+| `template`  | string | n/a | `"cispr25_re"`, `"cispr25_ce"`, `"iso11452_2_ri"`, `"iso11452_4_ci"` |
 | `dut_name`  | string | `"DUT"` | Device-under-test label                                     |
 | `distance_m`| number | template default | Antenna distance in meters                          |
 
@@ -112,7 +112,7 @@ impedance annotations.
 
 | Name        | Type        | Default | Description                                       |
 | ----------- | ----------- | ------- | ------------------------------------------------- |
-| `layers`    | `Layer[]`   | —       | Array of `{ name, type, thickness_um, material }` |
+| `layers`    | `Layer[]`   | n/a | Array of `{ name, type, thickness_um, material }` |
 | `materials` | `Material[]` | from layers | Material definitions (Dk, Df, Tg)            |
 
 Built-in 4-layer, 6-layer, 8-layer templates. Materials supported out of
@@ -129,8 +129,8 @@ screenshot. The image is placed as a locked background layer in draw.io.
 
 | Name           | Type             | Default | Description                                        |
 | -------------- | ---------------- | ------- | -------------------------------------------------- |
-| `image_path`   | string           | —       | Path to schematic image (PNG / JPG / SVG)          |
-| `annotations`  | `Annotation[]`   | —       | Array of `{ type, x, y, text, color }` rows        |
+| `image_path`   | string           | n/a | Path to schematic image (PNG / JPG / SVG)          |
+| `annotations`  | `Annotation[]`   | n/a | Array of `{ type, x, y, text, color }` rows        |
 
 ---
 
@@ -142,7 +142,7 @@ Parse a `.drawio` file into structured JSON (shapes, edges, styles).
 
 | Name        | Type   | Default | Description                          |
 | ----------- | ------ | ------- | ------------------------------------ |
-| `file_path` | string | —       | Path to `.drawio` file               |
+| `file_path` | string | n/a | Path to `.drawio` file               |
 
 **Returns**
 
@@ -161,7 +161,7 @@ Export a `.drawio` file to SVG (or PNG with puppeteer installed).
 
 | Name        | Type   | Default | Description                          |
 | ----------- | ------ | ------- | ------------------------------------ |
-| `file_path` | string | —       | Path to `.drawio` file               |
+| `file_path` | string | n/a | Path to `.drawio` file               |
 | `format`    | string | `"svg"` | `"svg"` or `"png"`                   |
 | `output`    | string | input.{ext} | Output path                      |
 

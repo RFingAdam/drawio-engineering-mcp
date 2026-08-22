@@ -37,8 +37,8 @@ test("all 10 tools are importable", () => {
 test("every tool exposes name / description / inputSchema and a dispatch path", () => {
   // Tools dispatch via one of: `.generate`, `.read`, `.export`, or the
   // fallback "open" path keyed on `type`. The MCP contract we verify
-  // here is just the registration surface — name / description /
-  // inputSchema — which is what is serialised to clients.
+  // here is just the registration surface: name / description /
+  // inputSchema: which is what is serialised to clients.
   for (const tool of allTools) {
     assert.ok(tool, `tool is undefined`);
     assert.equal(typeof tool.name, "string", `name missing on some tool`);

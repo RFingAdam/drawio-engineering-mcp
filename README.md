@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo-banner.svg" alt="drawio-engineering-mcp — engineering diagrams in draw.io: RF block diagrams, PCB stackups, EMC test setups" width="100%"/>
+<img src="assets/logo-banner.svg" alt="drawio-engineering-mcp: engineering diagrams in draw.io: RF block diagrams, PCB stackups, EMC test setups" width="100%"/>
 
 <br/>
 
@@ -9,7 +9,7 @@
 [![MCP](https://img.shields.io/badge/MCP-server-A78BFA.svg)](https://modelcontextprotocol.io)
 [![eng-mcp-suite](https://img.shields.io/badge/eng--mcp--suite-member-22D3EE.svg)](https://github.com/RFingAdam/eng-mcp-suite)
 
-**Engineering diagrams in draw.io — RF block diagrams, PCB stackups, and EMC test setups generated from structured prompts.**
+**Engineering diagrams in draw.io: RF block diagrams, PCB stackups, and EMC test setups generated from structured prompts.**
 **Drive it from your IDE, terminal, or AI agent and skip the manual stencil-dragging.**
 
 [Quick start](#quick-start) ·
@@ -33,7 +33,7 @@ PCB, EMC, wireless, electrical, and general engineering.
 Where the upstream MCP gives you a diagram editor, this one gives you a
 diagram *generator*: an RF receiver signal chain with Friis-cascade
 annotations, a CISPR 25 / ISO 11452 test setup, a 6-layer PCB stackup
-with material-property labels — all from a one-sentence prompt or
+with material-property labels. All from a one-sentence prompt or
 structured JSON input.
 
 **What it does well:**
@@ -42,7 +42,7 @@ structured JSON input.
   server with **10 tools** wired into the draw.io browser app.
 - 🎨 **269 engineering stencils.** RF blocks, amplifiers, filters,
   antennas, PCB stackup vias, EMC test equipment, wireless protocol
-  badges, connectors, power ICs — all auto-loaded into the draw.io sidebar.
+  badges, connectors, power ICs. All auto-loaded into the draw.io sidebar.
 - ⚡ **Auto-layout generators.** `create_rf_block_diagram` runs Friis
   gain/NF cascade math; `create_pcb_stackup` renders cross-sections
   with material properties; `create_emc_test_setup` uses CISPR / ISO
@@ -99,7 +99,7 @@ claude mcp add drawio-engineering -s user -- \
 <tr>
 <td colspan="2" valign="top">
 
-**Any MCP client — first prompt**
+**Any MCP client: first prompt**
 
 Start a new session and ask:
 
@@ -182,13 +182,13 @@ By default all libraries load. To load only specific ones:
 `drawio-engineering-mcp` fits in the following [eng-mcp-suite](https://github.com/RFingAdam/eng-mcp-suite)
 workflow bundles:
 
-- **`emc-compliance`** — pair `create_emc_test_setup` with
+- **`emc-compliance`**: pair `create_emc_test_setup` with
   `mcp-emc-regulations` to generate the test setup diagram for the
   exact CISPR / ISO method the limit lookup returned.
-- **`pcb-review`** — generate `create_pcb_stackup` cross-sections during
+- **`pcb-review`**: generate `create_pcb_stackup` cross-sections during
   a `mcp-pcb-emcopilot` design review.
-- **`rf-design`** — use `create_rf_block_diagram` to visualize the
-  cascade an LNA / mixer / filter chain produces — Friis numbers
+- **`rf-design`**. Use `create_rf_block_diagram` to visualize the
+  cascade an LNA / mixer / filter chain produces: Friis numbers
   annotated automatically.
 
 Part of [eng-mcp-suite](https://github.com/RFingAdam/eng-mcp-suite).
@@ -201,10 +201,10 @@ for the full list of sibling MCPs and bundle definitions.
 
 ## Documentation
 
-- 📘 **[Quick Start](docs/index.md)** — install through first call.
-- 🛠️ **[Tool reference](docs/tools.md)** — every MCP tool, every argument.
-- 📐 **[Usage examples](docs/usage.md)** — practical end-to-end walkthroughs.
-- 🏗️ **[Architecture](docs/architecture.md)** — how this MCP fits in eng-mcp-suite.
+- 📘 **[Quick Start](docs/index.md)**: install through first call.
+- 🛠️ **[Tool reference](docs/tools.md)**. Every MCP tool, every argument.
+- 📐 **[Usage examples](docs/usage.md)**: practical end-to-end walkthroughs.
+- 🏗️ **[Architecture](docs/architecture.md)**: how this MCP fits in eng-mcp-suite.
 
 ---
 
@@ -224,8 +224,8 @@ or jump to a sibling:</sub>
 | --------------------------- | ---------------------------------------------------------------------------- |
 | **RF / Transmission lines** | [lineforge](https://github.com/RFingAdam/lineforge)                          |
 | **EMC regulatory**          | [mcp-emc-regulations](https://github.com/RFingAdam/mcp-emc-regulations)      |
-| **PCB / SI**                | mcp-pcb-emcopilot *(private — public soon)*                                  |
-| **EM simulation**           | mcp-openems, mcp-nec2-antenna *(private — public soon)*                      |
+| **PCB / SI**                | mcp-pcb-emcopilot *(private: public soon)*                                  |
+| **EM simulation**           | mcp-openems, mcp-nec2-antenna *(private: public soon)*                      |
 | **Diagrams**                | **drawio-engineering-mcp** *(this repo)*                                     |
 | **3D / rendering**          | [mcp-blender](https://github.com/RFingAdam/mcp-blender)                      |
 | **Remote access**           | [mcp-remote-access](https://github.com/RFingAdam/mcp-remote-access)          |
@@ -245,7 +245,7 @@ Contributions are welcome.
 1. **Pick a [GitHub issue](https://github.com/RFingAdam/drawio-engineering-mcp/issues)**.
 2. **Fork + branch** (`feature/your-thing` or `fix/your-bug`).
 3. **Run tests** (`npm test`) if present.
-4. **Open a PR** — link the issue, request review.
+4. **Open a PR**: link the issue, request review.
 
 ---
 
@@ -267,12 +267,12 @@ or open an issue and tag `@RFingAdam`.
 
 ## Acknowledgments
 
-- **[JGraph Ltd / draw.io](https://www.diagrams.net)** — for the
+- **[JGraph Ltd / draw.io](https://www.diagrams.net)**: for the
   upstream `@drawio/mcp` and the underlying diagram editor.
-- **The MCP working group** — for the [Model Context Protocol](https://modelcontextprotocol.io) specification.
+- **The MCP working group**: for the [Model Context Protocol](https://modelcontextprotocol.io) specification.
 
 <div align="center">
 
-<sub>Part of <a href="https://github.com/RFingAdam/eng-mcp-suite">eng-mcp-suite</a> — built for RF engineers, PCB designers, EMC labs, and AI agents.</sub>
+<sub>Part of <a href="https://github.com/RFingAdam/eng-mcp-suite">eng-mcp-suite</a>: built for RF engineers, PCB designers, EMC labs, and AI agents.</sub>
 
 </div>

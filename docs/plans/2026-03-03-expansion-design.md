@@ -11,7 +11,7 @@ Phase 1 MVP deployed with 4 tools and 30 RF stencil symbols. Browser error on te
 
 1. **Stencil hosting:** GitHub Pages from `/docs` folder on the repo
 2. **Screenshot markup:** Claude vision analyzes image, then `markup_schematic` tool renders image as background layer with redline annotation overlay in draw.io
-3. **Build order:** Generator-first (Approach A) — fix bug, then highest-value tools first, grow stencil library alongside tools
+3. **Build order:** Generator-first (Approach A): fix bug, then highest-value tools first, grow stencil library alongside tools
 4. **Architecture:** Modular tools in `src/tools/`, generators in `src/generators/`, stencils in `docs/stencils/`
 
 ## Tool Inventory (10 tools)

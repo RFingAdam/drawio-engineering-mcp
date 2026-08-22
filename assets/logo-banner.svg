@@ -2,13 +2,13 @@
 <!--
   drawio-engineering-mcp · brand banner
   Built from eng-mcp-suite/docs/brand/logo-template.svg.
-  Glyph: g-diagram (customized — adds a tiny resistor zig-zag inside the
+  Glyph: g-diagram (customized: adds a tiny resistor zig-zag inside the
   top-left node so the mark reads as "engineering diagram", not "biz
   flowchart"). Accent: violet (#A78BFA).
 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320"
-     role="img" aria-label="drawio-engineering-mcp — engineering diagrams in draw.io: RF block diagrams, PCB stackups, EMC test setups">
-  <title>drawio-engineering-mcp — engineering diagrams in draw.io: RF block diagrams, PCB stackups, EMC test setups</title>
+     role="img" aria-label="drawio-engineering-mcp: engineering diagrams in draw.io: RF block diagrams, PCB stackups, EMC test setups">
+  <title>drawio-engineering-mcp: engineering diagrams in draw.io: RF block diagrams, PCB stackups, EMC test setups</title>
 
   <defs>
     <linearGradient id="t-bg" x1="0" y1="0" x2="1" y2="0">
@@ -48,7 +48,7 @@
           fill="none" stroke="#1E293B" stroke-width="1" opacity="0.7"/>
 
     <!-- Inlined g-diagram glyph (customized: tiny resistor zig-zag inside
-         top-left node, capacitor-plate hint inside top-right node — signals
+         top-left node, capacitor-plate hint inside top-right node: signals
          "engineering schematic", not generic flowchart) -->
     <g id="glyph-slot" transform="translate(40, 40)" filter="url(#t-glow)">
       <g fill="none" class="accent-stroke" stroke-width="2"

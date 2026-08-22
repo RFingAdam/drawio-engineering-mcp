@@ -1,7 +1,7 @@
 {
   "name": "drawio-engineering-mcp",
   "version": "1.1.0",
-  "description": "Draw.io MCP server for RF, electrical, PCB, and EMC engineering diagrams — 10 tools, 269 stencil symbols",
+  "description": "Draw.io MCP server for RF, electrical, PCB, and EMC engineering diagrams: 10 tools, 269 stencil symbols",
   "type": "module",
   "bin": {
     "drawio-engineering-mcp": "src/index.js"
