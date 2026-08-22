@@ -1,6 +1,6 @@
 # drawio-engineering-mcp
 
-**Engineering diagrams in draw.io — RF block diagrams, PCB stackups, and EMC test setups generated from structured prompts.**
+**Engineering diagrams in draw.io: RF block diagrams, PCB stackups, and EMC test setups generated from structured prompts.**
 **Drive it from your IDE, terminal, or AI agent and skip the manual stencil-dragging.**
 
 ---
@@ -51,14 +51,14 @@ npm install
 
 ## Where to next
 
-- [Tool reference](tools.md) — every MCP tool with arguments
-- [Usage examples](usage.md) — practical end-to-end walkthroughs
-- [Architecture](architecture.md) — how this MCP fits inside eng-mcp-suite
+- [Tool reference](tools.md). Every MCP tool with arguments
+- [Usage examples](usage.md): practical end-to-end walkthroughs
+- [Architecture](architecture.md): how this MCP fits inside eng-mcp-suite
 
 ---
 
 !!! note "Part of eng-mcp-suite"
-    This MCP server is part of [eng-mcp-suite](https://github.com/RFingAdam/eng-mcp-suite) —
+    This MCP server is part of [eng-mcp-suite](https://github.com/RFingAdam/eng-mcp-suite),
     an umbrella of engineering MCP servers across RF, EMC, PCB, signal
     integrity, EM simulation, and lab test. Same brand, same docs
     structure, designed to compose.

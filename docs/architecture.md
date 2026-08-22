@@ -16,24 +16,24 @@ of [eng-mcp-suite](https://github.com/RFingAdam/eng-mcp-suite).
                               │
 ┌──────────────────────────────────────────────────────────────────┐
 │  Orchestration                                                   │
-│  • core/compression.js   — pako + base64 URL builder             │
-│  • core/browser.js       — cross-platform browser opener         │
-│  • core/xml-builder.js   — fluent mxGraphModel XML builder       │
+│  • core/compression.js  : pako + base64 URL builder             │
+│  • core/browser.js      : cross-platform browser opener         │
+│  • core/xml-builder.js  : fluent mxGraphModel XML builder       │
 └──────────────────────────────────────────────────────────────────┘
                               │
 ┌──────────────────────────────────────────────────────────────────┐
 │  Generators + stencils                                           │
-│  • generators/rf-signal-chain.js  — Friis cascade layout         │
-│  • generators/emc-setup.js        — CISPR / ISO templates        │
-│  • generators/pcb-stackup.js      — cross-section rendering      │
-│  • docs/stencils/                 — 13 XML stencil libraries     │
+│  • generators/rf-signal-chain.js : Friis cascade layout         │
+│  • generators/emc-setup.js       : CISPR / ISO templates        │
+│  • generators/pcb-stackup.js     : cross-section rendering      │
+│  • docs/stencils/                : 13 XML stencil libraries     │
 └──────────────────────────────────────────────────────────────────┘
 ```
 
 The server is pure Node.js. It assembles mxGraphModel XML in memory,
 pako-deflates and base64-encodes it into a draw.io URL hash, then opens
 the resulting URL in the user's default browser. No headless browser is
-required at runtime — only at export time, where puppeteer is optional
+required at runtime: only at export time, where puppeteer is optional
 for PNG output.
 
 ## Source layout
@@ -75,7 +75,7 @@ drawio-engineering-mcp/
 ## Position in eng-mcp-suite
 
 `drawio-engineering-mcp` sits in the **visualization** layer of the
-engineering MCP stack — it doesn't compute or measure, it draws what
+engineering MCP stack. It doesn't compute or measure, it draws what
 upstream MCPs decide. Other MCPs pass it cascade data, stackup
 definitions, or CISPR method identifiers; this MCP renders them.
 
@@ -94,11 +94,11 @@ definitions, or CISPR method identifiers; this MCP renders them.
 
 ### Consumes (this MCP accepts input from)…
 
-- **mcp-emc-regulations** — CISPR / ISO method identifiers feed
+- **mcp-emc-regulations**: CISPR / ISO method identifiers feed
   `create_emc_test_setup`.
-- **mcp-pcb-emcopilot** — stackup + materials decisions feed
+- **mcp-pcb-emcopilot**: stackup + materials decisions feed
   `create_pcb_stackup`.
-- **lineforge** — transmission-line geometry can be visualized inside
+- **lineforge**: transmission-line geometry can be visualized inside
   a stackup cross-section.
 
 ### Feeds (this MCP produces output that)…

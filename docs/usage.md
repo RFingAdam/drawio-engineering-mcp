@@ -36,7 +36,7 @@ Register with Claude Desktop:
 
 Restart your MCP client.
 
-## Step 1 — RF block diagram with cascade
+## Step 1: RF block diagram with cascade
 
 Ask the assistant:
 
@@ -64,7 +64,7 @@ draw.io opens with the chain laid out left-to-right, each block
 labeled, and a cascade table annotating cumulative gain (`+3.5 dB` at
 the ADC input) and noise figure (`2.6 dB` system NF via Friis).
 
-## Step 2 — PCB stackup cross-section
+## Step 2: PCB stackup cross-section
 
 > *"Generate a 6-layer 1.6 mm PCB stackup with Rogers 4003C for the RF
 > layer pair and FR-4 for the rest."*
@@ -80,7 +80,7 @@ Core   | FR-4     | 0.4 mm   Dk=4.4  Df=0.02
 ...
 ```
 
-## Step 3 — CISPR 25 EMC test setup
+## Step 3: CISPR 25 EMC test setup
 
 > *"Show me a CISPR 25 radiated emissions test setup for a wireless
 > receiver module."*
@@ -88,9 +88,9 @@ Core   | FR-4     | 0.4 mm   Dk=4.4  Df=0.02
 `create_emc_test_setup` with `template="cispr25_re"` opens draw.io
 with the standard CISPR 25 ALSE diagram: ground plane, DUT location,
 biconical / log-periodic antenna at 1 m, LISN, harness routing,
-absorber wall positions — all labeled per the standard.
+absorber wall positions. All labeled per the standard.
 
-## Step 4 — Export everything to SVG
+## Step 4: Export everything to SVG
 
 > *"Export all three diagrams to SVG into ./review/."*
 
@@ -104,7 +104,7 @@ SVGs into the design-review deck.
 In four prompts you've gone from "design review tomorrow" to three
 production-quality engineering diagrams with the math already annotated
 on them. The Friis cascade, the stackup material properties, and the
-CISPR 25 setup geometry are all encoded in the generators — you don't
+CISPR 25 setup geometry are all encoded in the generators. You don't
 have to remember which way the antenna points or which Df FR-4 uses.
 
 - For more tools: [Tool reference](tools.md)
