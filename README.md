@@ -266,15 +266,6 @@ The project name and the logo files in this repository are not part of the licen
 work. The licence above grants no permission to use them, except as needed to describe
 the origin of the work.
 
-## Commercial licensing
-
-This project is licensed under AGPL-3.0-or-later. A commercial license
-(for embedding in a closed-source product, hosting as a paid service
-without AGPL's share-back obligations, or proprietary redistribution)
-is available on a case-by-case basis. See [eng-mcp-suite's licensing
-policy](https://github.com/RFingAdam/eng-mcp-suite/blob/main/LICENSE_SUMMARY.md#commercial-licensing)
-or open an issue and tag `@RFingAdam`.
-
 ## Acknowledgments
 
 - **[JGraph Ltd / draw.io](https://www.diagrams.net)**: for the
