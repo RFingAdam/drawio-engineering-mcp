@@ -256,6 +256,16 @@ align with the eng-mcp-suite toolkit-wide AGPL move. The upstream
 draw.io MCP foundation remains Apache-2.0; this server's engineering
 extensions and added tooling are AGPL-3.0-or-later.
 
+## Trademarks and brand assets
+
+This project is not affiliated with, endorsed by, or sponsored by JGraph Ltd.
+"draw.io" and "diagrams.net" are trademarks of JGraph Ltd. They are used here
+only to identify the software this project interoperates with.
+
+The project name and the logo files in this repository are not part of the licensed
+work. The licence above grants no permission to use them, except as needed to describe
+the origin of the work.
+
 ## Commercial licensing
 
 This project is licensed under AGPL-3.0-or-later. A commercial license
