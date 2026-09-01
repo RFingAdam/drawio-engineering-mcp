@@ -38,19 +38,19 @@ structured JSON input.
 
 **What it does well:**
 
-- 🤖 **AI-native via MCP.** First-class [Model Context Protocol](https://modelcontextprotocol.io)
+- **AI-native via MCP.** First-class [Model Context Protocol](https://modelcontextprotocol.io)
   server with **10 tools** wired into the draw.io browser app.
-- 🎨 **269 engineering stencils.** RF blocks, amplifiers, filters,
+- **269 engineering stencils.** RF blocks, amplifiers, filters,
   antennas, PCB stackup vias, EMC test equipment, wireless protocol
   badges, connectors, power ICs. All auto-loaded into the draw.io sidebar.
-- ⚡ **Auto-layout generators.** `create_rf_block_diagram` runs Friis
+- **Auto-layout generators.** `create_rf_block_diagram` runs Friis
   gain/NF cascade math; `create_pcb_stackup` renders cross-sections
   with material properties; `create_emc_test_setup` uses CISPR / ISO
   templates.
-- ✅ **Round-trip.** `read_drawio` parses `.drawio` XML into structured
+- yes **Round-trip.** `read_drawio` parses `.drawio` XML into structured
   JSON (shapes, edges, styles) so an agent can analyze an existing
   diagram. `export_drawio` renders to SVG / PNG.
-- 🔒 **AGPL-3.0-or-later.** Built on the official draw.io MCP foundation
+- **AGPL-3.0-or-later.** Built on the official draw.io MCP foundation
   (Apache-2.0); this server's engineering extensions are AGPL-3.0-or-later.
 
 ---
@@ -201,10 +201,10 @@ for the full list of sibling MCPs and bundle definitions.
 
 ## Documentation
 
-- 📘 **[Quick Start](docs/index.md)**: install through first call.
-- 🛠️ **[Tool reference](docs/tools.md)**. Every MCP tool, every argument.
-- 📐 **[Usage examples](docs/usage.md)**: practical end-to-end walkthroughs.
-- 🏗️ **[Architecture](docs/architecture.md)**: how this MCP fits in eng-mcp-suite.
+- **[Quick Start](docs/index.md)**: install through first call.
+- **[Tool reference](docs/tools.md)**. Every MCP tool, every argument.
+- **[Usage examples](docs/usage.md)**: practical end-to-end walkthroughs.
+- **[Architecture](docs/architecture.md)**: how this MCP fits in eng-mcp-suite.
 
 ---
 
