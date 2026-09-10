@@ -4,9 +4,13 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 jobs:
   smoke:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, haven]
     strategy:
       matrix:
         node-version: ["18.x", "20.x", "22.x"]
